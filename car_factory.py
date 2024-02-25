@@ -28,7 +28,7 @@ class CarFactory:
         return Car(engine, battery)
 
     @staticmethod
-    def create_rorschach(current_date, last_service_date, current_mileage, last_service_mileage):
+    def create_thovex(current_date, last_service_date, current_mileage, last_service_mileage):
         engine = CapuletEngine()
         battery = NubbinBattery()
         return Car(engine, battery)
